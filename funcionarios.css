@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(176, 239, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    /*background-color: aliceblue;*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.imagem{
+    align-items: center;
+      display: flex;
+     justify-content: center;
+
+
+}
+.empresa{
+    width: 400px;
+    transition: 1s;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 64px;
+    font-family: sans-serif;
+    font-weight: 500;
+    /*background-color: white;*/
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+}
+h3{
+   text-align: center;
+
+
+}
+h4{
+   text-align: center;
+
+
+}
+h5{
+     
+     width: 300px;
+     text-align: center;
+
+
+}  
+.dados{
+     /*background-color: white;*/
+     display: flex;
+     justify-content: center;
+
+
+
+
+}
+
+.destaque{
+    background-color: black;
+    color: beige;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 2px 8px;
+    transition: 1s;
+    border-radius:16px;
+}
+.destaque:hover{
+    padding: 8px 64px;
+}
